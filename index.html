@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Alfa-Libras</title>
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="assets/libras.png" alt="logo libras" width="45px"></a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#alfabeto">Alfabeto</a>
+                </li>
+                <li>
+                    <a href="#videos">Vídeos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="pesquisa">
+            <form action="">
+                <div id="input_group">
+                    <input type="search" required>
+                    <button type="submit">pesquisar</button>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h1>Alfa-Libras!</h1>
+            <p>A <b>Língua Brasileira de Sinais (Libras)</b> é uma língua gestual-visual que utiliza sinais, expressões
+                faciais e corporais para transmitir ideias e fatos. A Libras é utilizada por milhões de brasileiros
+                surdos e ouvintes, e é reconhecida como um meio legal de comunicação e expressão desde 2002.</p>
+            <p>Nós do <b>Alfa-Libras</b> buscamos tornar mais acessível essa língua, com o objetivo de incluir cada
+                vez mais a comunidade surda-muda. Temos o propósito de ofercer conteúdo de Libras de forma gratuita,
+                proporcionando cada vez mais o acesso das pessoas não usuárias da linguagem de libras a conhecer e fazer
+                com que as barreiras causadas pelas diferenças não separem as pessoas.</p>
+        </section>
+
+        <section id="alfabeto">
+            <h2>Alfabeto em libras</h2>
+            <div>
+                <article>
+                    <h3>A</h3>
+                    <img src="assets/a.png" alt="letra a">
+                </article>
+                <article>
+                    <h3>B</h3>
+                    <img src="assets/b.png" alt="letra b">
+                </article>
+                <article>
+                    <h3>C</h3>
+                    <img src="assets/c.png" alt="letra c">
+                </article>
+                <article>
+                    <h3>Ç</h3>
+                    <img src="assets/c2.png" alt="letra ç">
+                </article>
+                <article>
+                    <h3>D</h3>
+                    <img src="assets/d.png" alt="letra d">
+                </article>
+                <article>
+                    <h3>E</h3>
+                    <img src="assets/e.png" alt="letra e">
+                </article>
+            </div>
+
+            <a href="#">carregar mais...</a>
+        </section>
+
+        <section id="videos">
+            <h2>Vídeo mostrando o alfabeto em Libras</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EZxkymw426U?si=ojKz7drLy-4FHqSR"
+                title="Alfabeto em libras" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Vídeo mostrando todas as letras do alfabeto em Libras.</p>
+
+            <h2>Como surgiu a Língua Brasileira de Sinais</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vszmxi_d3QY?si=SkDg0EtK1NoPxbXa"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Vídeo mostrando como surgiu a Língua Brasileira de Sinais e a sua necessiade.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="">
+                <div class="input__group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Digite o seu nome" required>
+                </div>
+
+                <div class="input__group">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" placeholder="exemplo@exemplo.com" required>
+                </div>
+
+                <div class="input__group">
+                    <label for="assunto" id="assunto">Assunto</label>
+                    <select name="assunto" id="assunto" required>
+                        <option value="selecionar" disabled selected>Selecionar</option>
+                        <option value="apoiar">Apoiar o projeto</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="outro">Outro assunto</option>
+                    </select>
+                </div>
+
+                <div class="input__group">
+                    <textarea name="mensagem" id="mensagem" required>Digite sua mensagem aqui</textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Política de privacidade</a>
+                </li>
+                <li>
+                    <a href="#">Termos de uso</a>
+                </li>
+                <li>
+                    <a href="#">Ajuda</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="redes">
+            <h3>Redes sociais</h3>
+            <div>
+                <a href="https://www.instagram.com/iago.draws" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/iago-hipnos" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+
+            <div>
+                <h3>Contato</h3>
+                <a href="#contato">Contato</a>
+                <a href="mailto:iagoandre567@gmail.com">E-mail</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
